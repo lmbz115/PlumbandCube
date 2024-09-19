@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlumbandCube", "PlumbandCube\PlumbandCube.csproj", "{FC489909-1A51-4890-8A27-EC3D88C8C210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{2BB244F2-EEBA-4BA2-B36D-3A998F12D995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC489909-1A51-4890-8A27-EC3D88C8C210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC489909-1A51-4890-8A27-EC3D88C8C210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC489909-1A51-4890-8A27-EC3D88C8C210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC489909-1A51-4890-8A27-EC3D88C8C210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB244F2-EEBA-4BA2-B36D-3A998F12D995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB244F2-EEBA-4BA2-B36D-3A998F12D995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB244F2-EEBA-4BA2-B36D-3A998F12D995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB244F2-EEBA-4BA2-B36D-3A998F12D995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {865DB91D-42A2-490B-9C31-A5D0F9BEFFE0}
+	EndGlobalSection
+EndGlobal
