@@ -5,7 +5,7 @@
     "general": [ "*" ]
   },
   "shape": {
-    "base": "game:item/plumbandsquare"
+    "base": "plumbandcube:shapes/item/tools/plumbandcube"
   },
   "attributes": {
     "groundStorageTransform": {

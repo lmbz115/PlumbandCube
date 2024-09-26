@@ -6,7 +6,6 @@
     "path": "/attributes/reinforcementStrengthByType",
     "value": "*"
   },
-
   {
     "file": "game:itemtypes/resource/metalnailsandstrips.json",
     "op": "replace",
@@ -23,11 +22,17 @@
       "*-silver": 200
     }
   },
-
   {
     "file": "game:itemtypes/resource/mortar.json",
     "op": "addmerge",
     "path": "/attributes/reinforcementStrength",
     "value": 200
+  },
+  {
+    "file": "game:itemtypes/resource/stone.json",
+    "op": "addmerge",
+    "path": "/attributesByType/*/reinforcementStrength",
+    "value": 15
   }
+  
 ]

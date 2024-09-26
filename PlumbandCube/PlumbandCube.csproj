@@ -56,6 +56,7 @@
   <None Remove="assets\plumbandcube\itemtypes\plumbandcube.json" />
   <None Remove="assets\plumbandcube\patches\REinforce_Overhaul.json" />
   <None Remove="assets\plumbandcube\recipe\grid\plumbandcube.json" />
+  <None Remove="assets\plumbandcube\shapes\item\tools\plumbandcube.json" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
