@@ -6,8 +6,6 @@
         "LickMyBallZack"
     ],
     "description": "For all your reinforcement desires.",
-    "version": "1.0.0",
-    "dependencies": {
-        "game": ""
-    }
+    "version": "1.0.1"
+
 }

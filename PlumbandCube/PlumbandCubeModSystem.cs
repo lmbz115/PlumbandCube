@@ -15,6 +15,7 @@ namespace PlumbandCube
             api.Logger.Notification("Hello from template mod: " + api.Side);
             base.Start(api);
             api.RegisterItemClass("PlumbandCube", typeof(PlumbandCube));
+            api.RegisterItemClass("AdminPlumbAndSquare", typeof(Adminplumbandsquare));
         }
 
         public override void StartServerSide(ICoreServerAPI api)
