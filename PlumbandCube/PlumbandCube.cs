@@ -206,7 +206,6 @@ namespace PlumbandCube
                     return;
                 }
 
-                BlockReinforcement reinforcment = modSystem.GetReinforcment(blockSel.Position);
                 string errorCode = "";
 
 
@@ -236,6 +235,9 @@ namespace PlumbandCube
                         for (int z = min.Z; z <= max.Z; z++)
                         {
                             tempPos.Set(x, y, z);
+
+                            BlockReinforcement reinforcment = modSystem.GetReinforcment(tempPos);
+
                             if (!modSystem.TryRemoveReinforcement(tempPos, serverPlayer, ref errorCode))
                             {
                                 if (errorCode == "notownblock")
@@ -247,6 +249,7 @@ namespace PlumbandCube
                                     serverPlayer.SendIngameError("cantremove", "Cannot remove reinforcement. It's not reinforced");
                                 }
                             }
+                            else
 
                             if (reinforcment.Locked)
                             {
