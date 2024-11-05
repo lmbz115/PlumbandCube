@@ -53,6 +53,7 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <None Remove="assets\plumbandcube\itemtypes\adminplumbandsquare.json" />
   <None Remove="assets\plumbandcube\itemtypes\plumbandcube.json" />
   <None Remove="assets\plumbandcube\patches\REinforce_Overhaul.json" />
   <None Remove="assets\plumbandcube\recipes\grid\plumbandcube.json" />
