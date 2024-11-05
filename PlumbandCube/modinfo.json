@@ -3,10 +3,11 @@
     "modid": "plumbandcube",
     "name": "PlumbandCube",
     "authors": [
-        "LickMyBallZack"
+      "LickMyBallZack",
+      "Cantos"
     ],
     "description": "For all your reinforcement desires.",
-    "version": "1.0.3",
+    "version": "1.1",
     "dependencies": {
         "game": ""
     }
